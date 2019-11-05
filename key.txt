@@ -1,2 +1,3 @@
 Hello, here will be my laboratory works
 test otkaty
+mem 2
