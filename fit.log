@@ -1,0 +1,444 @@
+
+
+*******************************************************************************
+Fri Dec 27 14:55:08 2019
+
+
+FIT:    data read from 'without_res' using 1:5
+        format = x:z
+        x range restricted to [6.87665e+006 : 1.63510e+007]
+        #datapoints = 948
+        residuals are weighted equally (unit weight)
+
+function used for fitting: abs(zopen(x))
+	zopen(x) = sqrt(L(x))/g*l*1/tanh(gammal(x))
+	L(x) = l_inf + k/sqrt(x)
+	gammal(x) = g*(R(x)/2/sqrt(L(x))+2*pi*x*j*sqrt(L(x)))
+	R(x) = 3*pi*k*sqrt(x)
+BREAK: Need via and either parameter list or file
+
+*******************************************************************************
+Fri Dec 27 14:55:14 2019
+
+
+FIT:    data read from 'without_res' using 1:5
+        format = x:z
+        x range restricted to [6.87665e+006 : 1.63510e+007]
+        #datapoints = 948
+        residuals are weighted equally (unit weight)
+
+function used for fitting: abs(zopen(x))
+	zopen(x) = sqrt(L(x))/g*l*1/tanh(gammal(x))
+	L(x) = l_inf + k/sqrt(x)
+	gammal(x) = g*(R(x)/2/sqrt(L(x))+2*pi*x*j*sqrt(L(x)))
+	R(x) = 3*pi*k*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   k            
+   0 4.0935460500e+07  0.00e+00 2.01e+02  1.485446e-05
+   7 9.2404709552e+05 -4.21e-01 2.01e-05  7.837268e-05
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 924047
+rel. change during last iteration : -4.20928e-006
+
+degrees of freedom    (FIT_NDF)                        : 947
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 31.2372
+variance of residuals (reduced chisquare) = WSSR/ndf   : 975.763
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+k               = 7.83727e-005     +/- 9.323e-007   (1.19%)
+
+
+*******************************************************************************
+Fri Dec 27 14:58:58 2019
+
+
+FIT:    data read from 'without_res' using 1:5
+        format = x:z
+        x range restricted to [-180327. : 1.83243e+007]
+        #datapoints = 1832
+        residuals are weighted equally (unit weight)
+
+function used for fitting: abs(zopen(x))
+	zopen(x) = sqrt(L(x))/g*l*1/tanh(gammal(x))
+	L(x) = l_inf + k/sqrt(x)
+	gammal(x) = g*(R(x)/2/sqrt(L(x))+2*pi*x*j*sqrt(L(x)))
+	R(x) = 3*pi*k*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   k             g            
+   0 5.6752138172e+08  0.00e+00 9.40e+02  7.427231e-05  7.640000e-05
+  13 1.5141251291e+08 -9.58e-01 9.40e+00  9.177440e-04  5.364494e-05
+
+After 13 iterations the fit converged.
+final sum of squares of residuals : 1.51413e+008
+rel. change during last iteration : -9.58215e-006
+
+degrees of freedom    (FIT_NDF)                        : 1830
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 287.644
+variance of residuals (reduced chisquare) = WSSR/ndf   : 82739.1
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+k               = 0.000917744      +/- 0.0001559    (16.99%)
+g               = 5.36449e-005     +/- 1.855e-007   (0.3458%)
+
+correlation matrix of the fit parameters:
+                k      g      
+k               1.000 
+g              -0.345  1.000 
+
+
+*******************************************************************************
+Fri Dec 27 14:59:43 2019
+
+
+FIT:    data read from 'without_res' using 1:5
+        format = x:z
+        x range restricted to [-2.54659e+006 : 2.05842e+007]
+        #datapoints = 2000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: abs(zopen(x))
+	zopen(x) = sqrt(L(x))/g*l*1/tanh(gammal(x))
+	L(x) = l_inf + k/sqrt(x)
+	gammal(x) = g*(R(x)/2/sqrt(L(x))+2*pi*x*j*sqrt(L(x)))
+	R(x) = 3*pi*k*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   k             linf         
+   0 6.5908906995e+08  0.00e+00 1.96e+01  9.177440e-04  1.000000e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Fri Dec 27 15:00:47 2019
+
+
+FIT:    data read from 'without_res' using 1:5
+        format = x:z
+        x range restricted to [-2.54659e+006 : 2.05842e+007]
+        #datapoints = 2000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: abs(zopen(x))
+	zopen(x) = sqrt(L(x))/g*l*1/tanh(gammal(x))
+	L(x) = l_inf + k/sqrt(x)
+	gammal(x) = g*(R(x)/2/sqrt(L(x))+2*pi*x*j*sqrt(L(x)))
+	R(x) = 3*pi*k*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   k             l            
+   0 5.1155170781e+08  0.00e+00 4.38e+02  1.945602e-05  7.700000e+00
+   9 1.6165664558e+08 -8.21e-01 4.38e-07  3.170509e-04  1.517131e+01
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 1.61657e+008
+rel. change during last iteration : -8.21358e-006
+
+degrees of freedom    (FIT_NDF)                        : 1998
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 284.445
+variance of residuals (reduced chisquare) = WSSR/ndf   : 80909.2
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+k               = 0.000317051      +/- 3.39e-005    (10.69%)
+l               = 15.1713          +/- 0.1104       (0.728%)
+
+correlation matrix of the fit parameters:
+                k      l      
+k               1.000 
+l               0.471  1.000 
+
+
+*******************************************************************************
+Fri Dec 27 15:11:18 2019
+
+
+FIT:    data read from 'cutw.txt' using 1:6
+        format = x:z
+        x range restricted to [615704. : 1.91204e+007]
+        #datapoints = 1468
+        residuals are weighted equally (unit weight)
+
+function used for fitting: real(zopen(x))
+	zopen(x) = sqrt(L(x))/g*l*1/tanh(gammal(x))
+	L(x) = l_inf + k/sqrt(x)
+	gammal(x) = g*(R(x)/2/sqrt(L(x))+2*pi*x*j*sqrt(L(x)))
+	R(x) = 3*pi*k*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   g             k             linf         
+   0 2.0055879769e+06  0.00e+00 9.75e+02  7.640000e-05  5.281586e-05  1.001000e+00
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Fri Dec 27 15:12:35 2019
+
+
+FIT:    data read from 'cutw.txt' using 1:6
+        format = x:z
+        x range restricted to [615704. : 1.91204e+007]
+        #datapoints = 1468
+        residuals are weighted equally (unit weight)
+
+function used for fitting: real(zopen(x))
+	zopen(x) = sqrt(L(x))/g*l*1/tanh(gammal(x))
+	L(x) = l_inf + k/sqrt(x)
+	gammal(x) = g*(R(x)/2/sqrt(L(x))+2*pi*x*j*sqrt(L(x)))
+	R(x) = 3*pi*k*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   g             k             l_inf        
+   0 1.4306758483e+05  0.00e+00 5.88e+02  7.350747e-05  8.677283e-05  2.600000e-07
+   4 4.9019921338e+04  0.00e+00 5.88e+09  7.825800e-05  6.925134e-05  2.309051e-07
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 49019.9
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 1465
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.78452
+variance of residuals (reduced chisquare) = WSSR/ndf   : 33.4607
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+g               = 7.8258e-005      +/- 1.006e-007   (0.1285%)
+k               = 6.92513e-005     +/- 4.051e-007   (0.5849%)
+l_inf           = 2.30905e-007     +/- 5.468e-010   (0.2368%)
+
+correlation matrix of the fit parameters:
+                g      k      l_inf  
+g               1.000 
+k              -0.877  1.000 
+l_inf          -0.986  0.824  1.000 
+
+
+*******************************************************************************
+Fri Dec 27 15:19:00 2019
+
+
+FIT:    data read from 'cutw.txt' using 1:6
+        format = x:z
+        x range restricted to [2.91102e+006 : 7.13668e+006]
+        #datapoints = 269
+        residuals are weighted equally (unit weight)
+
+function used for fitting: real(zopen(x))
+	zopen(x) = sqrt(L(x))/g*l*1/tanh(gammal(x))
+	L(x) = l_inf + k/sqrt(x)
+	gammal(x) = g*(R(x)/2/sqrt(L(x))+2*pi*x*j*sqrt(L(x)))
+	R(x) = 3*pi*k*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   g             k             l_inf         l            
+   0 4.9133199819e+03  0.00e+00 4.86e+00  7.825800e-05  6.925134e-05  2.309051e-07  7.700000e+00
+   4 1.7393150505e+01 -3.54e-01 4.86e-01  8.197987e-05  4.514724e-05  2.128335e-07  3.799694e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 17.3932
+rel. change during last iteration : -3.53807e-006
+
+degrees of freedom    (FIT_NDF)                        : 265
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.256192
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0656345
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+g               = 8.19799e-005     +/- 0.04388      (5.353e+004%)
+k               = 4.51472e-005     +/- 0.0472       (1.045e+005%)
+l_inf           = 2.12834e-007     +/- 0.0002284    (1.073e+005%)
+l               = 3.79969          +/- 3970         (1.045e+005%)
+
+correlation matrix of the fit parameters:
+                g      k      l_inf  l      
+g               1.000 
+k              -1.000  1.000 
+l_inf          -1.000  1.000  1.000 
+l               1.000 -1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Fri Dec 27 15:21:35 2019
+
+
+FIT:    data read from 'cutw.txt' using 1:6
+        format = x:z
+        x range restricted to [6.20547e+006 : 1.91012e+007]
+        #datapoints = 1188
+        residuals are weighted equally (unit weight)
+
+function used for fitting: real(zopen(x))
+	zopen(x) = sqrt(L(x))/g*l*1/tanh(gammal(x))
+	L(x) = l_inf + k/sqrt(x)
+	gammal(x) = g*(R(x)/2/sqrt(L(x))+2*pi*x*j*sqrt(L(x)))
+	R(x) = 3*pi*k*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   g             k             l_inf        
+   0 2.3034511563e+06  0.00e+00 4.86e+02  8.197987e-05  4.514724e-05  2.128335e-07
+  32 4.2793799161e+04 -9.77e-01 4.86e+01  5.487519e-05  1.416006e-04  4.694200e-07
+
+After 32 iterations the fit converged.
+final sum of squares of residuals : 42793.8
+rel. change during last iteration : -9.77378e-006
+
+degrees of freedom    (FIT_NDF)                        : 1185
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.0094
+variance of residuals (reduced chisquare) = WSSR/ndf   : 36.1129
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+g               = 5.48752e-005     +/- 7.352e-008   (0.134%)
+k               = 0.000141601      +/- 8.644e-007   (0.6104%)
+l_inf           = 4.6942e-007      +/- 1.157e-009   (0.2466%)
+
+correlation matrix of the fit parameters:
+                g      k      l_inf  
+g               1.000 
+k              -0.878  1.000 
+l_inf          -0.986  0.825  1.000 
+
+
+*******************************************************************************
+Fri Dec 27 15:21:51 2019
+
+
+FIT:    data read from 'cutw.txt' using 1:6
+        format = x:z
+        x range restricted to [6.20547e+006 : 1.91012e+007]
+        #datapoints = 1188
+        residuals are weighted equally (unit weight)
+
+function used for fitting: real(zopen(x))
+	zopen(x) = sqrt(L(x))/g*l*1/tanh(gammal(x))
+	L(x) = l_inf + k/sqrt(x)
+	gammal(x) = g*(R(x)/2/sqrt(L(x))+2*pi*x*j*sqrt(L(x)))
+	R(x) = 3*pi*k*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   g             k             l_inf         l            
+   0 4.2793799161e+04  0.00e+00 5.77e+02  5.487519e-05  1.416006e-04  4.694200e-07  3.799694e+00
+   2 4.2785772936e+04 -5.14e-01 5.77e+01  5.526015e-05  1.397383e-04  4.628706e-07  3.856872e+00
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 42785.8
+rel. change during last iteration : -5.1395e-006
+
+degrees of freedom    (FIT_NDF)                        : 1184
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.01138
+variance of residuals (reduced chisquare) = WSSR/ndf   : 36.1366
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+g               = 5.52602e-005     +/- 2.402e-006   (4.347%)
+k               = 0.000139738      +/- 1.307e-005   (9.354%)
+l_inf           = 4.62871e-007     +/- 3.984e-008   (8.607%)
+l               = 3.85687          +/- 0.3298       (8.552%)
+
+correlation matrix of the fit parameters:
+                g      k      l_inf  l      
+g               1.000 
+k              -0.999  1.000 
+l_inf          -1.000  0.999  1.000 
+l               1.000 -0.998 -1.000  1.000 
+
+
+*******************************************************************************
+Fri Dec 27 15:22:48 2019
+
+
+FIT:    data read from 'cutw.txt' using 1:6
+        format = x:z
+        x range restricted to [6.20547e+006 : 1.91012e+007]
+        #datapoints = 1188
+        residuals are weighted equally (unit weight)
+
+function used for fitting: real(zopen(x))
+	zopen(x) = sqrt(L(x))/g*l*1/tanh(gammal(x))
+	L(x) = l_inf + k/sqrt(x)
+	gammal(x) = g*(R(x)/2/sqrt(L(x))+2*pi*x*j*sqrt(L(x)))
+	R(x) = 3*pi*k*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   g             k             l_inf        
+   0 9.0250715604e+06  0.00e+00 1.33e+03  5.526015e-05  1.397383e-04  4.628706e-07
+   8 4.2797960263e+04 -7.04e-02 1.33e+03  7.812811e-05  6.982894e-05  2.315864e-07
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 42798
+rel. change during last iteration : -7.03582e-007
+
+degrees of freedom    (FIT_NDF)                        : 1185
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.00969
+variance of residuals (reduced chisquare) = WSSR/ndf   : 36.1164
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+g               = 7.81281e-005     +/- 1.047e-007   (0.134%)
+k               = 6.98289e-005     +/- 4.263e-007   (0.6106%)
+l_inf           = 2.31586e-007     +/- 5.712e-010   (0.2466%)
+
+correlation matrix of the fit parameters:
+                g      k      l_inf  
+g               1.000 
+k              -0.878  1.000 
+l_inf          -0.986  0.825  1.000 
+
+
+*******************************************************************************
+Fri Dec 27 16:10:14 2019
+
+
+FIT:    data read from 'RUN_CONDUC' using 1:5
+        format = x:z
+        x range restricted to [-955638. : 2.40311e+007]
+        #datapoints = 2000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: abs(close(x))
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Fri Dec 27 16:10:21 2019
+
+
+FIT:    data read from 'RUN_CONDUC' using 1:5
+        format = x:z
+        x range restricted to [-955638. : 2.40311e+007]
+        #datapoints = 2000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: abs(zclose(x))
+	zclose(x) = sqrt(L(x))/g*l*tanh(gammal(x))
+	L(x) = l_inf + k/sqrt(x)
+	gammal(x) = g*(R(x)/2/sqrt(L(x))+2*pi*x*j*sqrt(L(x)))
+	R(x) = 3*pi*k*sqrt(x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   g             k             l_inf        
+   0 1.2807187579e+06  0.00e+00 4.76e+02  7.812811e-05  6.982894e-05  2.315864e-07
+   5 3.0519620850e+05 -5.99e-03 4.76e+02  7.616582e-05  8.082708e-05  2.562085e-07
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 305196
+rel. change during last iteration : -5.9901e-008
+
+degrees of freedom    (FIT_NDF)                        : 1997
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 12.3623
+variance of residuals (reduced chisquare) = WSSR/ndf   : 152.827
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+g               = 7.61658e-005     +/- 1.583e-007   (0.2078%)
+k               = 8.08271e-005     +/- 8.161e-007   (1.01%)
+l_inf           = 2.56209e-007     +/- 9.116e-010   (0.3558%)
+
+correlation matrix of the fit parameters:
+                g      k      l_inf  
+g               1.000 
+k              -0.945  1.000 
+l_inf          -0.977  0.912  1.000 
